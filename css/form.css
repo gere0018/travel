@@ -5,6 +5,11 @@
 Remember to use something like type-scale.com 
 to get your font sizes
 *******************************************/
+*{
+	padding:0;
+	margin: 0;
+}
+
 .clearfix:after {
     content: ".";
     display: block;
@@ -27,10 +32,7 @@ html[xmlns] .clearfix {
 }
 
 
-*{
-	padding:0;
-	margin: 0;
-}
+
 html,body{
 margin: 0 auto;
 background-color: #7FB27B;
@@ -69,7 +71,6 @@ text-align: left;
 }
 .main{
     box-sizing: border-box;
-    height: 800px;
 	background-color: #CDFFC9;
     border: 0.2rem solid #CCA68C;
     padding: 2rem;
@@ -121,10 +122,7 @@ input[type=number],
 input[type=date]{
 	
 }
-input[type=submit],
-input[type=reset]{
-	
-}
+
 
 
 /*******************************************
@@ -151,6 +149,17 @@ input[type=reset]{
       width: 50%;
        float: left;  
     }
+    #slider-range{
+      width: 50%;
+      float:right;
+      margin: inherit;
+    }
+    input[type=submit],
+    input[type=reset]{
+    margin-top: 6rem;
+    width:
+
+        }
     
     .foot{
         clear: both;
