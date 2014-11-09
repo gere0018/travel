@@ -34,7 +34,7 @@ html[xmlns] .clearfix {
 
 
 html,body{
-background-color: #7FB27B;
+background: url("../images/green-small.jpg");
 
 }
 h1{
@@ -53,33 +53,37 @@ padding-bottom: 2rem;
 font-family: 'Flamenco', cursive;
 font-size: 1.2rem;
 text-align: left;
-}   
+}
+svg{
+    fill:#8EA5FF;
+}
 
 
 /*******************************************
 				Layout
 *******************************************/
 .wrapper{
-    background-color: #DFDFFF;
+    background-color: #78B23B;
+    opacity: 0.9;
     margin: 0 auto;
+    border: 0.2rem solid #B26C58;
     
 }
 .masthead{
 	text-align: center;
-    background-color: #B29784;
+    background-color: #CC745A;
 }
 .main{
     box-sizing: border-box;
-	background-color: #CDFFC9;
-    border: 0.2rem solid #CCA68C;
+	background-color: #C6FF8A;
+    border: 0.2rem solid #B26C58;
     padding: 2rem;
     margin: 0 auto;
 
      
 }
 .foot{
-    background-color: #B29784;
-    padding-left: 2rem;
+    background-color: #CC745A;
     clear: both;
 }
 .foot p{
@@ -110,16 +114,16 @@ text-align: left;
  label{
   display: block;
   font-family: 'Flamenco', cursive;
-  font-size: 1.5rem; 
+  font-size: 1.3rem;
 }
 
 
 input, select, textarea{
-  padding: 0.3rem;
+  padding: 0.4rem;
   font-family: 'Flamenco', cursive;
   width:80%;
   font-size: 1rem;
-  border: 0.2rem solid #CCA68C;
+  border: 0.2rem solid #B26C58;
 }
 select{
   width:30%;
