@@ -158,6 +158,10 @@ input[type=date]{
       width: 50%;
        float: left;  
     }
+    .buttons input{
+     margin-top: 7rem;
+
+    }
     
 }
 @media screen and (min-width: 780px){
