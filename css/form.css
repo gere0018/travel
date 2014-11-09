@@ -182,4 +182,10 @@ input[type=date]{
     .buttons{
         clear: both;
     }
+
+    .buttons input{
+     margin-top: 3rem;
+
+    }
+
 }
